@@ -1,0 +1,55 @@
+/* Colores */
+.filter_bar {
+  padding: 15px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  /*AZUL COMPLETO*/
+  /*background-color: #4387A9;
+  color: #ECECEC;*/
+  /*ROJO*/
+  	/*color: #a94442;
+      background-color: #f2dede;
+      border: 1px solid #a94442;*/
+  /*AZUL*/
+  color: #31708f;
+  background-color: #DDE8EC;
+  border: 1px solid #9BC2CA; }
+  .filter_bar label {
+    margin-left: 3px; }
+  .filter_bar .form-group {
+    margin-right: 5px; }
+    .filter_bar .form-group input {
+      height: 34px;
+      padding: 6px 12px;
+      font-size: 14px;
+      line-height: 1.42857143;
+      color: #555;
+      background-color: #fff;
+      background-image: none;
+      border: 1px solid #ccc;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      -ms-border-radius: 4px;
+      border-radius: 4px; }
+  .filter_bar .large-form-group {
+    width: 232px; }
+    .filter_bar .large-form-group input, .filter_bar .large-form-group select {
+      width: 232px; }
+  .filter_bar .regular-form-group {
+    width: 182px; }
+    .filter_bar .regular-form-group input, .filter_bar .regular-form-group select {
+      width: 182px; }
+  .filter_bar .small-form-group {
+    width: 132px; }
+    .filter_bar .small-form-group input, .filter_bar .small-form-group select {
+      width: 132px; }
+  .filter_bar #btn_submit_form {
+    margin-top: 25px; }
+
+#report_title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #215169; }

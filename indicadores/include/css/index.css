@@ -1,0 +1,144 @@
+
+#negan_img{
+	width: 100%;
+    margin-bottom: 10px;
+}
+#div_logout
+{
+	float: right;
+	margin-right: 50px;
+	margin-top: 5px;
+
+	padding: 5 10 5 10;
+	border: 2px solid rgb(216, 216, 216);
+	border-radius: 5px;
+	background-color: rgb(231, 231, 231);
+}
+
+#btns_areas_empresa{
+	float: left;
+}
+
+#info_trimestre
+{
+	margin-left: auto;
+	margin-right: auto;
+	width:350px;
+}
+
+/*TABLA */
+#month_table
+{
+	border: 2px solid black !important;
+	text-align: center;
+}
+#month_table td
+{
+	padding: 5px;
+	max-width:150px; 
+}
+#month_table tr > td:last-child
+{
+	border-right: 2px solid black;
+}
+#month_table tr:nth-child(1) > td:nth-child(even)
+{
+	background-color: rgb(211, 211, 255);
+}
+
+#month_table tr:nth-child(n+2) > td:nth-child(even)
+{
+	background-color: rgb(240, 240, 240);
+}
+
+#month_table tr > td:first-child
+{
+	border-right: 2px solid black;
+}
+
+#month_table tr:nth-child(n+3) > td:first-child
+{
+	text-align: left;
+	font-weight: bold;
+	background-color: rgb(255, 174, 174);
+}
+
+#month_table tr:nth-child(-n+1) > td
+{
+	border:2px solid black;
+}
+#month_table tr:nth-child(2)
+{
+	border-bottom: 2px solid black;
+	font-weight: bold;
+}
+
+#month_table tr:nth-child(n+4)
+{
+	border-top: 1px solid black;
+}
+
+/*TABLA TRIMESTRAL*/
+
+#trimestral_table
+{
+	border: 2px solid black !important;
+	text-align: center;
+}
+
+#trimestral_table td 
+{
+	padding: 5px;
+	max-width:150px; 
+}
+
+#trimestral_table tr:first-child
+{
+	border: 2px solid black;
+	font-weight: bold;
+	background-color: rgb(211, 211, 255);
+}
+
+#trimestral_table tr:nth-child(n+2) td:first-child
+{
+	border-right: 2px solid black;
+	text-align: left;
+	font-weight: bold;
+	background-color: rgb(255, 174, 174);
+}
+
+#trimestral_table tr:nth-child(n+2)
+{
+	border-top: 1px solid black;
+}
+
+#trimestral_table td:nth-child(n+2)
+{
+	border-left: 1px solid black;
+}
+
+.indicator_range_table 
+{
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.indicator_range_table tr
+{
+	border: 1px solid black;
+}
+
+
+.indicator_range_table th
+{
+	padding: 5px;
+}
+
+.indicator_range_table td
+{
+	padding: 5px;
+}
+
+.popover{
+    max-width: 700px; /* Max Width of the popover (depending on the container!) */
+}

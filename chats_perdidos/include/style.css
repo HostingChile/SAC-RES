@@ -1,0 +1,165 @@
+body{
+	background: rgb(189, 226, 247);
+}
+
+h1{
+	font-size: 40px;
+	color: rgb(44, 125, 144);
+}
+
+table{
+	border-collapse:collapse;
+	border:2px solid rgb(86, 86, 86);
+}
+
+tr > td{
+	padding: 2px;
+	text-align:center;
+	border-right: 1px solid rgb(86, 86, 86);
+}
+
+th{
+	text-align: center;
+	font-size: 20px;
+	background-color:rgb(12, 140, 169);
+	color: white;
+	padding: 2px;
+	border-right: 1px solid rgb(86, 86, 86);
+}
+th:not:first{
+	font-size: 20px;
+	background-color:rgb(0, 207, 255)
+}
+
+tr  td:first-child{
+	font-size: 20px;
+	background-color:rgb(182, 226, 252);
+}
+tr td:last-child{
+	border-left: 2px solid rgb(86, 86, 86);
+	font-size: 20px;
+	background-color:rgb(172, 239, 216);
+}
+
+tr  td{
+	width:260px;
+}
+
+tr td:first-child, tr th:first-child{
+	border-right: 2px solid rgb(86, 86, 86);
+}
+
+tr th:last-child{
+	border-left: 2px solid rgb(86, 86, 86);
+}
+
+tr:first-child{
+	border-bottom: 2px solid rgb(86, 86, 86);
+}
+tr:last-child{
+	border-top: 2px solid rgb(86, 86, 86);
+}
+
+#tabs{
+	position: relative;
+	bottom: 25px;
+}
+
+.ui-widget-header{
+	border:none;
+	background-color: transparent;
+	/*
+	border: 1px solid #0C8CA9 ;
+	background: rgb(182, 226, 252);
+	*/
+}
+.ui-widget-content{
+	border: none;
+	background-color: transparent;
+	/*
+	border: 1px solid #0C8CA9;
+	/*background: rgb(230, 239, 244);*/
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
+	background: rgb(90, 196, 219);
+	border: 1px solid #0C8CA9;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active{
+	background: rgb(14, 126, 150);
+}
+
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited{
+	color: #00318D;
+}
+
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited{
+	color: white;
+}
+
+
+.ver_tab{
+	border-radius: 3px;
+	padding: 10px;
+	color: #337AB7;
+ 	background-color: white;
+	cursor: pointer;
+	float:left;
+	margin-left: 10px;
+	height: 40px;
+}
+
+.active_tab{
+	background-color: #337AB7;
+ 	color: white;
+}
+
+#config_menu
+{
+
+	-webkit-box-shadow: -2px 2px 41px 2px rgba(79,79,79,1);
+	-moz-box-shadow: -2px 2px 41px 2px rgba(79,79,79,1);
+	box-shadow: -2px 2px 41px 2px rgba(79,79,79,1);
+	border-radius: 5px;
+	padding: 20px;
+	display: none;
+	position: absolute;
+	z-index: 100;
+	background-color: white;
+	float: right;
+	margin-right: 300px;
+}
+
+.ui-datepicker-calendar {
+    display: none;
+}
+
+#panel_configuracion{
+	float: right;
+	margin-right: 300px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.ui-datepicker-trigger{
+	width: 35px;
+	margin-left: 10px;
+	position: relative;
+	top: -5px;
+}
+
+.ui-datepicker-trigger:hover{
+	cursor: pointer;
+}
+
+#mes_actual{
+	position: relative;
+	top: -5px;
+	background-color: #E8E8E8;
+	border: 1px solid gray;
+	border-radius: 5px;
+	padding: 10px;
+	min-width: 200px;
+	text-align: center;
+}

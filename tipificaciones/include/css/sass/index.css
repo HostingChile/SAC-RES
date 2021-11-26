@@ -1,0 +1,127 @@
+/* Colores */
+/* Area de Tipificacion */
+#area_tipificacion {
+  background-color: white;
+  padding-right: 10px;
+  border-right: 2px solid #cacaca;
+  height: 90vh; }
+  #area_tipificacion #select_multiples_resultados {
+    position: absolute;
+    z-index: 100;
+    width: 200px;
+    background-color: white;
+    border: 1px solid gray;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    display: none; }
+    #area_tipificacion #select_multiples_resultados .resultado:hover {
+      background-color: #f7b43c;
+      cursor: pointer; }
+    #area_tipificacion #select_multiples_resultados .resultado {
+      padding: 5px; }
+  #area_tipificacion .custom_select_option {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    opacity: 0.5;
+    border: 2px solid transparent; }
+    #area_tipificacion .custom_select_option.selected_option {
+      -moz-transform: scale(1.25);
+      -o-transform: scale(1.25);
+      -ms-transform: scale(1.25);
+      -webkit-transform: scale(1.25);
+      transform: scale(1.25);
+      opacity: 1;
+      border-bottom: 2px solid #003f80; }
+    #area_tipificacion .custom_select_option:hover {
+      -moz-transform: scale(1.25);
+      -o-transform: scale(1.25);
+      -ms-transform: scale(1.25);
+      -webkit-transform: scale(1.25);
+      transform: scale(1.25);
+      opacity: 1; }
+  #area_tipificacion #detalle_tipificacion {
+    display: none; }
+  #area_tipificacion #btn_tipificar {
+    width: 100%;
+    display: none; }
+  #area_tipificacion .has-error #drill-down {
+    border: 1px solid #a94442;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px; }
+  #area_tipificacion #alertas_tipificacion {
+    display: none; }
+
+/* Area de Informacion del cliente */
+#area_informacion_cliente {
+  height: 100%; }
+  #area_informacion_cliente #info_cliente {
+    display: none; }
+  #area_informacion_cliente #alertas .alert {
+    /*display: none;*/ }
+  #area_informacion_cliente .client_detail_title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px; }
+  #area_informacion_cliente .client_detail {
+    font-size: 13px;
+    font-weight: bold; }
+  #area_informacion_cliente .end_message {
+    clear: both; }
+  #area_informacion_cliente #distintivos_clientes {
+    			/*padding: 10px;
+    			border: 1px solid #C3AC82;
+    			background-color: #FFEAC7;
+    			@include border-radius(5px);
+    
+    			hr{
+    				border-color: #C3AC82;
+    			}*/ }
+  #area_informacion_cliente .distintivo {
+    /*margin-right: 45px;*/
+    margin-bottom: 20px;
+    font-style: italic;
+    color: #5A5A5A; }
+    #area_informacion_cliente .distintivo img {
+      height: 40px;
+      width: 40px; }
+    #area_informacion_cliente .distintivo .not_selected {
+      -webkit-filter: grayscale(80%);
+      filter: grayscale(80%);
+      opacity: 0.5; }
+    #area_informacion_cliente .distintivo:hover {
+      cursor: pointer; }
+  #area_informacion_cliente .star_rating .glyphicon {
+    color: #CECECE;
+    font-size: 22px; }
+  #area_informacion_cliente .star_rating .selected_category {
+    color: #2AAF4D; }
+  #area_informacion_cliente .star_rating .other_hovered {
+    color: #CECECE; }
+  #area_informacion_cliente .star_rating .hovered {
+    color: #337AB7; }
+  #area_informacion_cliente #historial_atenciones .atencion {
+    margin-bottom: 20px; }
+    #area_informacion_cliente #historial_atenciones .atencion .message {
+      border: 1px solid gray;
+      border-radius: 5px;
+      padding: 10px 10px 0px 10px;
+      float: left; }
+    #area_informacion_cliente #historial_atenciones .atencion .recent_message {
+      background-color: #faebcc;
+      border: 1px solid #8a6d3b; }
+    #area_informacion_cliente #historial_atenciones .atencion .message_info {
+      font-size: 13px;
+      color: gray; }
+    #area_informacion_cliente #historial_atenciones .atencion .avatar {
+      width: 50px;
+      height: 50px;
+      border-radius: 5px;
+      float: left; }
+
+.danger .glyphicon {
+  color: #a94442; }

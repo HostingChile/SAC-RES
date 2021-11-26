@@ -1,0 +1,142 @@
+.slider-group{
+    margin: 30px 3px 10px 0px;
+    padding-left: 30px;  
+    position: relative;
+    border-color: #559cbf;
+    
+    .panel-body{
+        padding-top: 0px;
+    
+        .slider-row{
+            min-height: 70px;
+            margin-bottom: 10px;
+            padding-right: 25px;
+
+            #slider{
+                margin-top: 25px;
+            }
+            
+            .noUi-value{
+                margin-top: 4px;
+            }
+        }
+
+        .slider-values{
+            padding-left: 30px;
+            margin-top: 25px;
+
+        }
+        
+        #filters-button{
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            border-radius: 10px 0px 3px 0px;
+            outline: none;
+            background-color: #559cbf;
+            color: white;
+            border-color: #559cbf;
+        }
+
+        .switch{
+            margin: auto;
+        }
+    }
+
+}
+
+#tbl-clients{
+    thead > tr{
+        background-color: #31708f;
+        color: white;
+        
+        th{
+            
+            &:not(:last-child){
+                border-right: 1px solid white;
+            }
+            
+            &.order{
+                cursor: pointer;
+            }
+            
+            .filter{
+                float: right;
+                margin-top: 2px;
+            }
+        }
+        
+        .phones{
+            min-width: 220px;
+        }
+    }
+
+    tbody > tr.middle > td{
+        vertical-align: middle;
+        line-height: 0.8;
+
+        .list-group{
+            margin-bottom: 10px;
+            margin-top: -6px;
+
+            .list-group-item{
+                cursor: pointer;
+                padding: 3px 0px 3px 0px;
+                top: 8px;
+                border: none;
+                background-color: rgba(255, 255, 255, 0);
+            }
+        }
+    }   
+}
+
+#modal-comments {
+    textarea{
+        width: 100%;
+        height: 60vh;
+        padding: 10px;
+    }
+
+    .alert{
+        margin-top: 10px;
+        margin-bottom: -5px;
+    }
+
+    .spinner{
+        margin-top: 12px;
+    }
+}
+
+#modal-filters{
+    .modal-body{
+        /*text-align: center;*/
+    }
+    
+    .switch{
+        display: inline-block;
+        margin-top: -2px;
+    }
+    
+    .btn-group{
+        .btn.active{
+            background-color: #d45959;
+            border-color: #9c4d4d;
+        }
+    }
+}
+
+.error-message span{
+    font-weight: bold;
+}
+
+.hidden{
+    display: none;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.mr15{
+    margin-right: 15px;
+}

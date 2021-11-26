@@ -1,0 +1,11 @@
+.trello_url{
+    float: right;
+    border: 2px solid blue;
+    border-radius: 5px;
+    background-color:coral;
+}
+
+.avisos_operaciones_title{
+    font-size:large;
+    font-weight: bold;
+}

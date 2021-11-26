@@ -1,0 +1,60 @@
+#historial_atenciones .atencion {
+  margin-bottom: 20px; 
+}
+#historial_atenciones .atencion .problem_checked_message {
+  float:  right;
+}
+#historial_atenciones .atencion .message {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px 10px 0px 10px; 
+}
+#historial_atenciones .atencion .recent_message {
+  background-color: #faebcc;
+  border: 1px solid #8a6d3b; 
+}
+#historial_atenciones .atencion .message_content {
+  clear:  both;
+  margin-left: 10px; 
+}
+#historial_atenciones .atencion .problem_solved_message {
+  font-size: 13px;
+  color: gray;
+  float: left;
+  margin-left: 20px; 
+}
+#historial_atenciones .atencion .problem_solved {
+  color:green;
+}
+#historial_atenciones .atencion .problem_not_solved {
+  color:red;
+}
+#historial_atenciones .atencion .message_info {
+  font-size: 13px;
+  color: gray;
+  float: right;
+  margin-right: 20px; 
+}
+#historial_atenciones .atencion .avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px; 
+}
+#historial_atenciones .atencion .client_detail {
+  font-size: 13px;
+  font-weight: bold;
+  float:  left;
+}
+#historial_atenciones .atencion .end_message {
+  clear: both; 
+}
+
+.small_img{
+  width: 30px;
+  height: 30px;
+}
+
+.img_container{
+  float: right;
+}
+

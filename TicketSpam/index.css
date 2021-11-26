@@ -1,0 +1,37 @@
+#result_bar {
+    display: none;
+    margin-top: 1%;
+}
+
+#result {    
+    display: none;
+}
+
+#alert {
+    display: none;
+    margin-top: 1%;
+}
+
+.custom_select_option {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    opacity: 0.5;
+    border: 2px solid transparent; }
+    
+.custom_select_option.selected_option {
+      -moz-transform: scale(1.25);
+      -o-transform: scale(1.25);
+      -ms-transform: scale(1.25);
+      -webkit-transform: scale(1.25);
+      transform: scale(1.25);
+      opacity: 1;
+      border-bottom: 2px solid #003f80; }
+
+.custom_select_option:hover {
+      -moz-transform: scale(1.25);
+      -o-transform: scale(1.25);
+      -ms-transform: scale(1.25);
+      -webkit-transform: scale(1.25);
+      transform: scale(1.25);
+      opacity: 1; }

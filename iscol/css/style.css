@@ -1,0 +1,122 @@
+#header h1{
+padding-top: 30px;
+}
+
+
+td.mtz-monthpicker-month 
+{
+	text-align:center;
+}
+
+select.mtz-monthpicker:focus 
+{
+	outline: none;
+}
+
+body
+{
+	background-color:white;
+}
+
+#header
+{
+	position:relative;
+	width:100%;
+	height:100px;
+	background-color:#19D119;
+	text-align: center;
+}
+
+#container
+{
+	text-align:center;
+}
+
+.monthpicker
+{
+	background-color:white;
+}
+
+.titulo
+{
+	font-family: verdana,arial,sans-serif;
+	font-size:30px;
+}
+
+.tabla_principal
+{
+	margin: 0 auto;
+}
+
+.tabla_secundaria td.muy_alto
+{
+	background-color:green;
+}
+
+.tabla_secundaria td.alto
+{
+	background-color:lightgreen;
+}
+
+.tabla_secundaria td.bajo
+{
+	background-color:yellow;
+}
+
+.tabla_secundaria td.muy_bajo
+{
+	background-color:red;
+}
+
+.tabla_secundaria td.sin_calificacion
+{
+	background-color:#E0E0D1;
+}
+
+.tabla_secundaria {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+}
+.tabla_secundaria th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #dedede;
+}
+.tabla_secundaria td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+	text-align: center;
+}
+
+.total
+{
+	font-size:15px;
+	font-weight:bold;
+	background-color: #dedede!important;
+}
+
+#chats_cointainer,#chats_cointainer
+{
+	float:left;
+}
+
+.detail_button{
+background-color: lightgreen;
+border: solid 1px green;
+width: 160px;
+height: 50;
+border-radius: 10;
+font-size: 18px;
+box-shadow: 2px 2px 3px green;
+margin-right:10px;
+cursor:pointer;
+}

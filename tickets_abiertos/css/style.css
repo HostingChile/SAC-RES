@@ -1,0 +1,224 @@
+body,html{
+	width:100%;
+	height: 100vh;
+	margin: 0px;
+}
+
+#wrapper{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+#sidebar{
+	position:relative;
+	top:0px;
+	left:0px;
+	width: 20%;
+	height: 100%;
+	background-color: transparent;
+	float: left;
+}
+
+#sidebar_content{
+	height: 100%;
+	background-color: #838F94;
+	margin: 0px 20px 0px 0px;
+	border-right: 3px solid #6B6B6B;
+}
+
+#sidebar_content > div {
+	overflow: hidden;
+}
+
+#sidebar_content > hr {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#sidebar_title{
+	/*height: 8%;*/
+	color: #ECECEC;
+	font-size:50px;
+	text-align: center;
+	padding-top:20px;
+	margin-bottom: 20px;
+}
+
+#sidebar_toggle{
+	background-color: #838F94;
+	width: 20px;
+	height: 120px;
+	position: absolute;
+	top: 300px;
+	right: 0%;
+	margin-top: -60px;
+	margin-right: 3px;
+	cursor: pointer;
+	border-radius: 0px 10px 10px 0px;
+	border: 3px solid #6B6B6B;
+	border-left-color: #838F94;
+	color: #ECECEC;
+}
+
+#sidebar_toggle span{
+	text-align: center;
+}
+
+#sidebar_toggle span span{
+	display: block;
+	height: 15px;
+	margin-right: 1px;
+	font-weight: bold;
+}
+
+#sidebar_brands{
+	/*height: 26%;*/
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.sidebar_brand{
+	width: 100px;
+	height: 100px;
+	margin: 15px 5px 0px 5px;
+	border: 1px solid #ECECEC;
+	padding: 10px 0px;
+	border-radius: 50px;
+	background-color: white;
+	box-shadow: 0px 0px 10px 5px rgba(17, 45, 90, 0.92);
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+.sidebar_brand:hover{
+	box-shadow: 0px 0px 10px 5px white;
+	opacity: 1;
+}
+
+.sidebar_brand_selected{
+	opacity: 1;
+}
+
+#sidebar_departments {
+	color:#ECECEC;
+}
+
+#sidebar_departments > input{
+	margin-left: 20px;
+}
+  
+#content{
+	width: 81%;
+	height: 100%;
+	background-color: #ECECEC;
+	float: left;
+	z-index: -100;
+	margin-left: -20px;
+	padding-left: 30px;
+	padding-right: 14px;
+	padding-bottom: 100px;
+}
+
+#tickets{
+	overflow-y: auto;
+	height: 100%;
+	margin-bottom: 100px;
+}
+
+#table_tickets>thead>tr>th{
+	background-color: #61A0BF;
+	border-top: 1px solid #4194BD;
+}
+
+#table_tickets img{
+	width:50px;
+	height:50px;
+}
+
+#table_tickets th{
+	vertical-align:middle;
+	text-align: center;
+}
+
+#table_tickets td{
+	vertical-align:middle;
+	text-align: center;
+}
+
+.warning_4_hrs{
+	outline: 7px double red;
+	outline-offset: -7px;
+}
+
+.warning_24_hrs{
+	outline: 10px solid red;
+	outline-offset: -10px;
+}
+
+.warning_4_hrs_operaciones{
+	outline: 7px double red;
+	outline-offset: -7px;
+}
+
+.warning_24_hrs_operaciones{
+	outline: 10px solid red;
+	outline-offset: -10px;
+}
+
+.warning_24_hrs_respondido{
+	outline: 5px solid orange;
+	outline-offset: -5px;
+}
+
+.sin_respuesta{
+	color:red;
+	font-weight: bold;
+}
+
+#apply_filter{
+	background-color: #ECECEC;
+	text-align: center;
+	cursor: pointer;
+	border: 2px solid #6B6B6B;
+	border-radius: 5px;
+	margin: 0px 20px;
+	/*position: absolute;*/
+	width: 83%;
+	bottom: 15px;
+	height: 35px;
+	color: #6B6B6B;
+	font-weight: bold;
+	font-size: 24px;
+	letter-spacing: 5px;
+	margin-bottom: 200px;
+}
+
+#apply_filter:hover{
+	box-shadow: 0px 0px 20px 5px rgb(169, 199, 219);
+}
+
+#loading_circles{
+	top: 50%;
+	position: absolute;
+	left: 50%;
+	margin-top: -100px;
+}
+
+#refresh{
+	margin-bottom: 10px;
+	background-color: #61A0BF;
+	padding-top: 3px;
+	padding-bottom: 4px;
+	width: 260px;
+	border-radius: 8px;
+	border: 1px #31708F;
+}
+
+#refresh input{
+	width: 40px;
+	border: none;
+	border-radius: 5px;
+	padding-left: 4px;
+}
+
